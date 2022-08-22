@@ -3,18 +3,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1.5rem 6%;
   border: 2px solid black;
 }
 
-.links {
-  margin-right: 5rem;
+.navbar div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar div h1 {
+  font-size: 3rem;
+  margin-left: 15px;
 }
 
 .links a {
   margin-right: 20px;
-  font-size: 13px;
+  font-size: 2rem;
   padding: 3px 15px;
-  text-decoration: none;
 }
 
 .active {
@@ -25,8 +31,4 @@
 #logo {
   width: 50px;
   display: inline-block;
-}
-
-h1 {
-  display: inline;
 }

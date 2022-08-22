@@ -6,7 +6,7 @@ const NavBar = () => (
   <nav className="navbar">
     <div>
       <img id="logo" src={logo} alt="Logo" />
-      <h1>Space hub</h1>
+      <h1>Space Traveler&apos;s hub</h1>
     </div>
     <div className="links">
       <NavLink to="/">Rockets</NavLink>
