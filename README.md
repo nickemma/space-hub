@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Project Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Space Traveler Hub
 
-## Available Scripts
+# Description the project.
 
-In the project directory, you can run:
+This web application provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.
 
-### `npm start`
+The pull request is opened to get a review on the project and check for any required changes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React js
+- Redux
+- CSS
+- Testing
+- API
 
-### `npm test`
+## Click here for live version
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- live demo: [coming soon]()
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**This web page is books site with my List planned or shores to do in the future**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**To do List project works on mobile and desktop using @Media queries .**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+To get a local copy up and running follow these simple example steps.
+follow>>>>>>>>>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+to use the project To do list please follow :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> Open GitHub and go to my GitHub repository name: space hub.to clone.
+> Click “Code” and copy the given URL.
+> click code and copy the URL.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> click code and copy the URL.
 
-## Learn More
+> Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Syntax:
 
-### Code Splitting
+$ git clone {repository URL}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Usage
 
-### Analyzing the Bundle Size
+> open your directory math-magician/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+\_use vs-code or any IDE to view line code .
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+$ npm start to run the local server
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Authors
 
-### Deployment
+👤 **Nicholas Emmanuel**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- GitHub: [@githubhandle](https://github.com/NickEmma)
+- Twitter: [@twitterhandle](https://twitter.com/techieEmma)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/nicholas-emmanuel-6b9775207)
 
-### `npm run build` fails to minify
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions, issues, and feature requests are welcome!
+thanks:
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
