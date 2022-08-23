@@ -5,15 +5,11 @@ import MissionItem from './MissionItem';
 import '../styles/Mission.css';
 
 const Mission = () => {
-  const status = useSelector((state) => state.missions.status);
-  const missions = useSelector((state) => state.missions.data);
+  const missions = useSelector((state) => state.missions);
   const dispatch = useDispatch();
-
   useEffect(() => {
-    if (status === '') {
-      dispatch(getMissions());
-    }
-  }, [status, dispatch]);
+    dispatch(getMissions());
+  }, [dispatch]);
 
   return (
     <section data-test-id="missions-section" className="missions">
@@ -33,7 +29,7 @@ const Mission = () => {
               name={mission.name}
               description={mission.description}
               id={mission.id}
-              reserved={mission.reserved}
+              reserved={mission.completed}
             />
           ))}
         </tbody>

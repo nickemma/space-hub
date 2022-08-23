@@ -1,17 +1,13 @@
-import '../styles/navbar.css';
 import React from 'react';
+import '../styles/navbar.css';
+import '../styles/MyProfile.css';
 
-function MyProfile() {
-  return <div>MyProfile</div>;
-}
+import JoinMission from './JoinMission';
+
+const MyProfile = () => (
+  <section className="main-container">
+    <JoinMission />
+  </section>
+);
 
 export default MyProfile;
-// import JoinMission from './JoinMission';
-
-// const MyProfile = () => (
-//   <section className="main-container">
-//     <JoinMission />
-//   </section>
-// );
-
-// export default MyProfile;
