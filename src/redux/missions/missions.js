@@ -1,32 +1,24 @@
 const ADD_MISSIONS = 'space-hub/missions/ADD_MISSION';
-const COMPLETE_STATUS = 'space-hub/missions/COMPLETE_STATUS';
 const JOIN_MISSION = 'space-hub/missions/JOIN_MISSION';
 const CANCEL_MISSION = 'space-hub/missions/CANCEL_MISSION';
 
-const initialState = {
-  data: [],
-  status: '',
-};
+const initialState = [];
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_MISSIONS:
-      return { ...state, data: [...state.data, ...action.payload] };
-    case COMPLETE_STATUS:
-      return { ...state, status: 'completed' };
+      return action.payload;
     case JOIN_MISSION: {
-      const newState = state.data.map((mission) => {
+      return state.map((mission) => {
         if (mission.id !== action.id) return mission;
-        return { ...mission, reserved: true };
+        return { ...mission, completed: true };
       });
-      return { ...state, data: [...newState] };
     }
     case CANCEL_MISSION: {
-      const newState = state.data.map((mission) => {
+      return state.map((mission) => {
         if (mission.id !== action.id) return mission;
-        return { ...mission, reserved: false };
+        return { ...mission, completed: false };
       });
-      return { ...state, data: [...newState] };
     }
     default:
       return state;
@@ -49,11 +41,7 @@ export const cancelMission = (id) => ({
   id,
 });
 
-const completeStatus = () => ({
-  type: COMPLETE_STATUS,
-});
-
-export { addMissions, completeStatus };
+export { addMissions };
 
 const getMissions = () => async (dispatch) => {
   const response = await fetch('https://api.spacexdata.com/v3/missions');
@@ -62,10 +50,9 @@ const getMissions = () => async (dispatch) => {
     id: mission.mission_id,
     name: mission.mission_name,
     description: mission.description,
-    reserved: false,
+    completed: false,
   }));
   dispatch(addMissions(missionsItems));
-  dispatch(completeStatus());
 };
 
 export { getMissions };
