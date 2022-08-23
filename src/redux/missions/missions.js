@@ -58,7 +58,6 @@ export { addMissions, completeStatus };
 const getMissions = () => async (dispatch) => {
   const response = await fetch('https://api.spacexdata.com/v3/missions');
   const data = await response.json();
-  console.log(data);
   const missionsItems = data.map((mission) => ({
     id: mission.mission_id,
     name: mission.mission_name,
