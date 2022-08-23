@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getMissions } from '../redux/missions/missions';
 import MissionItem from './MissionItem';
+import '../styles/Mission.css';
 
 const Mission = () => {
   const status = useSelector((state) => state.missions.status);
@@ -15,7 +16,7 @@ const Mission = () => {
   }, [status, dispatch]);
 
   return (
-    <section data-testid="missions-section" className="missions">
+    <section data-test-id="missions-section" className="missions">
       <table>
         <thead>
           <tr>

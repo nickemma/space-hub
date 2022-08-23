@@ -31,7 +31,7 @@ const MissionItem = (props) => {
       <th className="join">
         {!reserved && (
           <button
-            data-testid={id}
+            data-test-id={id}
             onClick={handleClickJoin}
             id={id}
             type="button"

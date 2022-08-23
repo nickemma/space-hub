@@ -1,16 +1,16 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 
-const JoinedMissions = () => {
+const JoinMission = () => {
   const missions = useSelector((state) => state.missions.data);
-  const joinedMissions = missions.filter((mission) => mission.reserved);
+  const joinMission = missions.filter((mission) => mission.reserved);
 
   return (
     <div>
       <h2> My Missions </h2>
       <ul className="missions-container">
-        {joinedMissions.length > 0 ? (
-          joinedMissions.map((mission) => (
+        {joinMission.length > 0 ? (
+          joinMission.map((mission) => (
             <li key={mission.id} className="mission">
               {mission.name}
             </li>
@@ -23,4 +23,4 @@ const JoinedMissions = () => {
   );
 };
 
-export default JoinedMissions;
+export default JoinMission;
