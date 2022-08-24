@@ -1,12 +1,13 @@
-# Project Name
+## space-hub
 
-Space Traveler Hub
+## About Project
 
-# Description the project.
+"Space Traveler's Hub" is A web application that provides commercial and scientific space travelling services, We are working with real live data from the SpaceX API. The application will allow users to book rockets and join selected space missions.
+The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section.
 
-This web application provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.
-
-The pull request is opened to get a review on the project and check for any required changes.
+![Rockets](src/images/141110078-f3941014-a4cc-491a-8875-419fb2d9582b.png)
+![Missions](src/images/141110128-6114f633-977e-4421-92ad-73f319a142a4.png)
+![My Profile section](src/images/141110154-bca00c72-77de-4bb0-9476-39a7c7906529.png)
 
 ## Built With
 
@@ -22,52 +23,43 @@ The pull request is opened to get a review on the project and check for any requ
 
 ## Getting Started
 
-**This web page is books site with my List planned or shores to do in the future**
+- Clone this repo <https://github.com/NickEmma/space-hub>
 
-**To do List project works on mobile and desktop using @Media queries .**
+  ```bash
+  git clone https://github.com/NickEmma/space-hub
+  ```
 
----
+- Navigate to SpaceTravelers folder/directory
 
-To get a local copy up and running follow these simple example steps.
-follow>>>>>>>>>
+  ```bash
+  cd SpaceTravelers
+  ```
 
-### Setup
+- On the comandline, at the project's root, run `npm install` to install app dependencies
 
-to use the project To do list please follow :
+- Next, run `npm start` which will run the app in the development mode.
 
-> Open GitHub and go to my GitHub repository name: space hub.to clone.
-> Click “Code” and copy the given URL.
-> click code and copy the URL.
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-> click code and copy the URL.
+- ALTERNATIVELY
 
-> Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
+  - Just run `npm run build` which will build the project and generate output files into the `build` directory.
 
-> Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
-
-> Syntax:
-
-$ git clone {repository URL}
-
-### Usage
-
-> open your directory math-magician/
-
-\_use vs-code or any IDE to view line code .
-
----
-
-$ npm start to run the local server
-
----
+  - Go to `build` directory and manually open `index.html` to interact with the app
 
 ## Authors
 
-👤 **Nicholas Emmanuel**
+👤 **Abdollah Raafat**
 
-- GitHub: [@githubhandle](https://github.com/NickEmma)
-- Twitter: [@twitterhandle](https://twitter.com/techieEmma)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/nicholas-emmanuel-6b9775207)
+- GitHub: [AbdollahRaafat](https://github.com/AbdollahRaafat)
+- LinkedIn: [AbdollahRaafat](https://www.linkedin.com/in/abdollah-raafat-886059221/)
+- Twitter: [AbdollahRaafat](https://twitter.com/abdollah_raafat)
+
+👤 **Nick Emma**
+
+- GitHub: [@NickEmma](https://github.com/NickEmma)
+- Twitter: [@NickEmma](https://twitter.com/techieEmma)
+- LinkedIn: [joel kalema](https://www.linkedin.com/in/nicholas-emmanuel-6b9775207/)
 
 ## 🤝 Contributing
 
@@ -81,8 +73,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Inspiration
-- etc
+- [ReactJS Organization](https://reactjs.org/) for the amazing [Documentation](https://reactjs.org/docs/getting-started.html) on React.
+- [Redux Organization](https://redux.js.org/) for the amazing [Redux Essentials Tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) on React.
 
 ## 📝 License
 
