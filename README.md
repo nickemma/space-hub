@@ -16,10 +16,11 @@ The Space Travelers' Hub consists of Rockets, Missions, and the My Profile secti
 - CSS
 - Testing
 - API
+- Tailwindcss
 
 ## Click here for live version
 
-- live demo: [coming soon]()
+- live demo: [Live Link](https://microverse-space-hub.netlify.app/)
 
 ## Getting Started
 
@@ -49,22 +50,22 @@ The Space Travelers' Hub consists of Rockets, Missions, and the My Profile secti
 
 ## Authors
 
+👤 **Nicholas Emmanuel**
+
+- GitHub: [@NickEmma](https://github.com/NickEmma)
+- Twitter: [@NickEmma](https://twitter.com/techieEmma)
+- LinkedIn: [joel kalema](https://www.linkedin.com/in/nicholas-emmanuel-6b9775207/)
+
 👤 **Abdollah Raafat**
 
 - GitHub: [AbdollahRaafat](https://github.com/AbdollahRaafat)
 - LinkedIn: [AbdollahRaafat](https://www.linkedin.com/in/abdollah-raafat-886059221/)
 - Twitter: [AbdollahRaafat](https://twitter.com/abdollah_raafat)
 
-👤 **Nick Emma**
-
-- GitHub: [@NickEmma](https://github.com/NickEmma)
-- Twitter: [@NickEmma](https://twitter.com/techieEmma)
-- LinkedIn: [joel kalema](https://www.linkedin.com/in/nicholas-emmanuel-6b9775207/)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-thanks:
+thanks: [issue-link](https://github.com/NickEmma/space-hub/issues)
 
 ## Show your support
 
