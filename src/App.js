@@ -1,20 +1,21 @@
 import { Routes, Route } from 'react-router-dom';
-import Mission from './Components/Mission';
-import MyProfile from './Components/MyProfile';
-import Rockets from './Components/Rockets';
-import NavBar from './Components/Nav';
-import './App.css';
+import Header from './components/header/Header';
+import Rockets from './routes/rockets/Rockets';
+import Profile from './routes/profile/Profile';
+import Missions from './routes/missions/Missions';
+import NoMatch from './routes/noMatch/NoMatch';
 
 function App() {
   return (
-    <>
-      <NavBar />
+    <div className="App">
+      <Header />
       <Routes>
         <Route path="/" element={<Rockets />} />
-        <Route path="/Mission" element={<Mission />} />
-        <Route path="/MyProfile" element={<MyProfile />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/missions" element={<Missions />} />
+        <Route path="*" element={<NoMatch />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
